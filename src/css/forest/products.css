@@ -1,0 +1,83 @@
+@import "main.css";
+
+.product{
+	height: 12rem;
+	width: 96%;
+	margin-left: 2vw;
+	background-color: var(--mediumGlass);
+	border-radius: 2rem;
+	margin-top: 1rem;
+	/*background-color: red;*/
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	border-style: solid;
+	border-color: var(--glassBorder);
+	border-width: 1px;
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	/*box-shadow: 0 0 0.8rem var(--darkerGlass);*/
+}
+
+img{
+	height: 10rem;
+	width: 10rem;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	left: 2rem;
+	top: 1rem;
+	border-width: 0;
+	border-radius: 100%;
+	background-color: red;
+	position: relative;
+}
+
+.product h2{
+	margin-left: 16rem;
+	top: -9rem;
+	font-size: 2rem;
+	position: relative;
+}
+
+.product p{
+	margin-left: 16rem;
+	top: -8rem;
+	width: 80%;
+	font-size: 1.2rem;
+	position: relative;
+}
+
+.section a{
+	text-decoration: none;
+}
+
+.product:hover{
+	filter: brightness(0.75);
+	webkit-transform: scale(101%);
+	transform: scale(101%);
+}
+
+.product:active{
+	filter: brightness(1.2);
+	webkit-transform: scale(101%);
+	transform: scale(101%);
+}
+
+.searchBar{
+	height: 52%;
+	width: 20rem;
+	margin-left: 2.5rem;
+	margin-top: 1.4rem;
+}
+
+.searchBar input{
+	font-family: Light;
+	border: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+	padding-left: 1rem;
+	background-color: var(--mediumGlass);
+}
+.searchBar input:focus{
+	outline: var(--primaryColor) solid 1px;
+}
