@@ -1,6 +1,6 @@
 # Ruby-Dragon
 My Portfolio of Projects!
 
-Work in progress
+Still under construction!
 
 [GH Pages link](https://ruby-dragon.github.io/)
