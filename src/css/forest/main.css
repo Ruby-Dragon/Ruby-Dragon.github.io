@@ -198,9 +198,20 @@ h2 {
     margin-bottom: 1rem;
     color: var(--secondaryColor);
     font-family: Light;
+    overflow: hidden;
 }
 
 .section p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--secondaryColor);
+    font-family: Light;
+    font-size: 1.5rem;
+    width: 55%;
+    line-height: 2rem;
+}
+
+.section a{
     margin-top: 2rem;
     margin-left: 2rem;
     color: var(--secondaryColor);
