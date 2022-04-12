@@ -26,10 +26,10 @@
             <div class = "leftBoxContent">
                 <h2>PCPartList</h2>
                 <p>GNU Public Licence v3, 2022, Ruby-Dragon</p>
-                <p>Generate secure-ish passwords easily!</p>
-                <p>Not cryptographically secure, but better than password1!</p>
-                <p>This project was made to practice CPP and keep my skills up - and to work on when im bored.</p>
-                <p>Written in C++ because I decided learning Rust just for this was going to kill me, and I was done suffering with Java.</p>
+                <p>Keep track of your PC parts!</p>
+                <p>This CLI program tracks the cost and power consumption of your PC parts! Keep organised and stay within your budget, while also keeping track of
+                your PC's power consumption! It saves logs of old builds, so you know what that one part that you can't remember where you got it came from!</p>
+                <p>I wrote this program in Java for practice, and also to try and make something genuinely useful.</p>
             </div>
         </div>
 
@@ -42,10 +42,11 @@
     <div class = "section">
         <h2 class = "sectionHeader">Program Information:</h2>
         <h3>What is it?</h3>
-        <p>This program is a command line app that allows for randomized password to be generated with one command. It is written in CPP and works on Windows, Linux, and should run fine on Mac.</p>
-        <p>It uses command line arguments to change options to allow for different sizes of password, and an option to use words instead of symbols. Usage is explained in its README.md file.</p>
+        <p>This is a command line app to keep track of your parts for a PC build. It allows for multiple saved lists, and calculates total cost and power draw. It can also save links, so you
+        know where you got everything!</p>
+        <p>It uses an interactive console to add, remove, and edit parts, and also to create and delete lists. Usage is shown in the README.md file.</p>
         <p> </p>
-        <a href = "https://github.com/Ruby-Dragon/SecurePasswordGenerator" target="_blank" rel="noopener noreferrer">Github Link</a>
+        <a href = "https://github.com/Ruby-Dragon/PCPartList" target="_blank" rel="noopener noreferrer">Github Link</a>
 
         <h3>Installation:</h3>
         <div style = "display: inline">
@@ -53,10 +54,13 @@
 
             </div>
             <div style = "margin-left: 1rem; float: left">
+                <p>Install Java (latest version recommended)</p>
                 <p>Clone repo to pc.</p>
                 <p>cd into folder.</p>
-                <p>use the command: "cmake" to compile the code.</p>
-                <p>Then the executable should be: ./SecurePasswordGenerator</p>
+                <p>Run ./compile.sh script to compile source code.</p>
+                <p>Then the executable should be: ./builds/PCPartList.jar</p>
+                <p>Always keep the lists/ directory in the same directory as PCPartList.jar!</p>
+                <p>Run with java -jar ./builds/PCPartList.jar</p>
             </div>
         </div>
 
