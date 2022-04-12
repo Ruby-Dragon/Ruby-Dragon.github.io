@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>Ruby-Dragon - SecurePasswordGenerator</title>
+    <title>Ruby-Dragon - RustToDoList</title>
     <link rel= "stylesheet" href = "../css/forest/main.css">
     <link rel= "stylesheet" href = "../css/forest/cssreset.css">
 
@@ -20,20 +20,21 @@
         <a class = "headerItem" href = "https://github.com/Ruby-Dragon" target="_blank" rel="noopener noreferrer">My Github</a>
     </div>
 
-    <div class = "floatContainer" style="height: 27rem">
+    <div class = "floatContainer" style="height: 28.5rem">
 
-        <div class = "leftBox" style="height: 28rem">
+        <div class = "leftBox" style="height: 28.5rem">
             <div class = "leftBoxContent">
-                <h2>Secure Password Generator</h2>
+                <h2>Rust To Do List</h2>
                 <p>GNU Public Licence v3, 2022, Ruby-Dragon</p>
-                <p>Generate secure-ish passwords easily!</p>
-                <p>Not cryptographically secure, but better than password1!</p>
-                <p>This project was made to practice CPP and keep my skills up - and to work on when im bored.</p>
-                <p>Written in C++ because I decided learning Rust just for this was going to kill me, and I was done suffering with Java.</p>
+                <p>A simple CLI to-do list written in Rust!</p>
+                <p>Useful for keeping track of tasks in a stylish and fast way. Best when used with Linux and a nice terminal theme.</p>
+                <p>This is how I learned Rust. Seems like a cool language. I like lists apparently.</p>
+                <p>Use with a terminal that supports ANSI escape codes, CMD and Powershell do not, which makes the strikethrough not appear in completed tasks! Windows Terminal and most
+                Linux terminals work just fine.</p>
             </div>
         </div>
 
-        <div class = "rightBox" style="height: 27.5rem; background-image: url(../images/SPGimageone.png)">
+        <div class = "rightBox" style="height: 28rem; background-image: url(../images/SPGimageone.png)">
 
         </div>
 
@@ -42,10 +43,11 @@
     <div class = "section">
         <h2 class = "sectionHeader">Program Information:</h2>
         <h3>What is it?</h3>
-        <p>This program is a command line app that allows for randomized password to be generated with one command. It is written in CPP and works on Windows, Linux, and should run fine on Mac.</p>
-        <p>It uses command line arguments to change options to allow for different sizes of password, and an option to use words instead of symbols. Usage is explained in its README.md file.</p>
+        <p>This is a command line to-do list written in Rust that allows for easy tracking of tasks. It allows for deadlines and completed tasks will disappear after
+        their deadlines.</p>
+        <p>It uses command line arguments to add tasks, remove tasks, and complete tasks. Usage is explained in the README.md file!</p>
         <p> </p>
-        <a href = "https://github.com/Ruby-Dragon/SecurePasswordGenerator" target="_blank" rel="noopener noreferrer">Github Link</a>
+        <a href = "https://github.com/Ruby-Dragon/RustToDoList" target="_blank" rel="noopener noreferrer">Github Link</a>
 
         <h3>Installation:</h3>
         <div style = "display: inline">
@@ -53,10 +55,12 @@
 
             </div>
             <div style = "margin-left: 1rem; float: left">
+                <p>Install cargo and Rust if it is not already installed.</p>
                 <p>Clone repo to pc.</p>
                 <p>cd into folder.</p>
-                <p>use the command: "cmake" to compile the code.</p>
-                <p>Then the executable should be: ./SecurePasswordGenerator</p>
+                <p>use "cargo build --release"</p>
+                <p>Then the executable should be: ./target/release/rust_to_do_list</p>
+                <p>Add a bash alias for the executable if you use bash to allow for easy use!</p>
             </div>
         </div>
 
