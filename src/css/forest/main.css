@@ -43,8 +43,8 @@ html, body {
     position: fixed;
     left: 0;
     overflow: hidden;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     border-style: none;
     border-bottom-style: solid;
     border-color: var(--glassBorder);
@@ -62,8 +62,8 @@ html, body {
     position: absolute;
     z-index: 48;
     padding: 0px;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     border-style: solid;
     border-left-style: none;
     border-right-style: solid;
