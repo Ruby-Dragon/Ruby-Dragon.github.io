@@ -38,6 +38,10 @@ img{
 	position: relative;
 }
 
+.product img{
+	object-fit: cover;
+}
+
 .product p{
 	margin-left: 16rem;
 	top: -8rem;
