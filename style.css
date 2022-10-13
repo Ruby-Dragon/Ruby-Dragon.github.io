@@ -1,14 +1,21 @@
+:root{
+    --background-color: #2a2a2e;
+    --ruby-color: #6e2f2b;
+    --main-color: #b8deb9;
+    --foot-color: #424f42;
+}
+
 body{
-    background-color: #2a2a2e;
+    background-color: var(--background-color);
     font-family: Lato-Thin, serif;
 }
 
 .topDiv{
-    color: #6e2f2b;
+    color: var(--ruby-color);
 }
 
 .bodyDiv{
-    color: #b8deb9;
+    color: var(--main-color);
 }
 
 .rubyText{
@@ -27,8 +34,23 @@ body{
 }
 
 .footDiv{
-    color: #424f42;
+    color: var(--foot-color);
     font-family: Lato-Light, serif;
+}
+
+.description{
+    margin-left: 5vw;
+    padding-left: 1vw;
+    font-size: 3vh;
+    border-left-style: solid;
+    border-color: var(--main-color);
+    border-left-width: 0.01vw;
+}
+
+.hello{
+    font-size: 10vh;
+    margin-bottom: 0;
+    font-weight: lighter;
 }
 
 @font-face {
