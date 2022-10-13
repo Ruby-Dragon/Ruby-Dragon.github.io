@@ -5,11 +5,25 @@ body{
 
 .topDiv{
     color: #6e2f2b;
-
 }
 
 .bodyDiv{
     color: #b8deb9;
+}
+
+.rubyText{
+    margin-left: 1vw;
+    font-size: 3vh;
+    display: inline-block;
+    margin-right: auto;
+    margin-top: 0.5vh;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 75%;
+    margin-right: 1vw;
+    margin-top: 0.5vh;
 }
 
 .footDiv{
