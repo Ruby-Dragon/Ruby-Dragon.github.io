@@ -1,9 +1,8 @@
 :root{
     --background-color: #2a2a2e;
     --footer-background-color: #25252a;
-    --ruby-color: #6e2f2b;
     --main-color: #b8deb9;
-    --foot-color: #424f42;
+    --main-text-color: #FEFFFE;
 }
 
 body{
@@ -12,11 +11,12 @@ body{
 }
 
 .topDiv{
-    color: var(--ruby-color);
+    color: var(--main-color);
 }
 
 .bodyDiv{
-    color: var(--main-color);
+    color: var(--main-text-color);
+    margin-top: 10vh;
 }
 
 .rubyText{
@@ -37,10 +37,12 @@ body{
 .description{
     margin-left: 5vw;
     padding-left: 1vw;
+    width: 45%;
     font-size: 3vh;
     border-left-style: solid;
     border-color: var(--main-color);
-    border-left-width: 0.01vw;
+    border-left-width: 0.2vw;
+    line-height: 5.5vh;
 }
 
 .hello{
