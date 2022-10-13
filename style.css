@@ -29,9 +29,14 @@ body{
 
 .icons {
     display: inline-block;
-    margin-left: 75%;
-    margin-right: 1vw;
-    margin-top: 0.5vh;
+    margin-left: auto;
+    float: right;
+    margin-right: 10vw;
+    padding-top: 0.8vh;
+}
+
+.icon{
+    width: 2.5vw;
 }
 
 .description{
