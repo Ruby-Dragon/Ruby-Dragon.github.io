@@ -1,5 +1,6 @@
 :root{
     --background-color: #2a2a2e;
+    --footer-background-color: #25252a;
     --ruby-color: #6e2f2b;
     --main-color: #b8deb9;
     --foot-color: #424f42;
@@ -31,11 +32,6 @@ body{
     margin-left: 75%;
     margin-right: 1vw;
     margin-top: 0.5vh;
-}
-
-.footDiv{
-    color: var(--foot-color);
-    font-family: Lato-Light, serif;
 }
 
 .description{
