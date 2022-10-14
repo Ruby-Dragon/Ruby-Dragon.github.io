@@ -39,15 +39,24 @@ body{
     width: 2.5vw;
 }
 
+.icon:hover {
+    opacity: 0.75;
+}
+
 .description{
     margin-left: 5vw;
     padding-left: 1vw;
     width: 45%;
+    display: inline-block;
     font-size: 3vh;
     border-left-style: solid;
     border-color: var(--main-color);
     border-left-width: 0.2vw;
     line-height: 5.5vh;
+}
+
+.list{
+
 }
 
 .hello{
