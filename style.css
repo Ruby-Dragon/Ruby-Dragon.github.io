@@ -39,8 +39,13 @@ body{
     width: 2.5vw;
 }
 
-.icon:hover {
+a:hover {
     opacity: 0.75;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-text-color);
 }
 
 .description{
@@ -56,12 +61,27 @@ body{
 }
 
 .list{
-
+    display: inline-block;
+    width: 20%;
+    font-size: 3vh;
+    margin-left: 3vw;
+    margin-top: 7vh;
+    border-left-style: solid;
+    border-left-width: 0.2vw;
+    line-height: 5.5vh;
+    position: relative;
+    top: 0;
+    vertical-align: top;
+    border-left-color: var(--main-color);
 }
 
 .hello{
     font-size: 10vh;
     margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.listHeader{
     font-weight: lighter;
 }
 
