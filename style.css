@@ -83,6 +83,7 @@ a{
 
 .listHeader{
     font-weight: lighter;
+    margin-left: 1vw;
 }
 
 @font-face {
